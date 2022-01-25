@@ -1,18 +1,18 @@
-POST https://pedantic-kalam-02961d.netlify.app/resolution
+POST http://localhost:5000/resolution
 Content-Type: application/json
 
 {
-   "agent": "Dylan Chua",
+   "agent": "hello",
    "phone": "6737178007" 
 }
 
 #####
 
-DELETE https://pedantic-kalam-02961d.netlify.app/61ef6275a8c509d08582340b
+DELETE http://localhost:5000/resolution/61ef956fc028d17d8811332b
 
 ######
 
-PATCH  https://pedantic-kalam-02961d.netlify.app/61ef65e7434cd13d91f62bdc
+PATCH  http://localhost:5000/test/61ef65e7434cd13d91f62bdc
 Content-Type: application/json
 
 {
